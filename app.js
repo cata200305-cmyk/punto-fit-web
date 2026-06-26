@@ -23,7 +23,7 @@ const products = [
   {
     id: 3,
     name: "Zapatillas urbana converse",
-    price: 35.00,
+    price: 69990,
     category: "hombre",
     tag: "Running",
     badge: "",
