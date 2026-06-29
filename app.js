@@ -27,7 +27,7 @@ const products = [
     category: "hombre",
     tag: "Running",
     badge: "",
-    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=600&q=80",
+    image: "assets/zapatilla_urbana_converse.jpg",
     description: "Son un ícono atemporal que combina comodidad, diseño versátil y herencia deportiva."
   },
   {
@@ -91,6 +91,11 @@ const products = [
     description: "Es un balón de alto rendimiento diseñado para competición y entrenamiento. Combina una estética vintage con materiales modernos, ofreciendo un agarre superior y un control óptimo tanto en canchas interiores como exteriores."
   }
 ];
+
+// Formateador de precios en Pesos Chilenos (CLP)
+function formatCLP(amount) {
+  return '$' + Math.round(amount).toLocaleString('es-CL');
+}
 
 // App State
 let cart = JSON.parse(localStorage.getItem('punto_fit_cart')) || [];
@@ -207,7 +212,7 @@ function createProductCardMarkup(prod) {
       <div class="product-info">
         <div class="product-header-row">
           <h3 class="product-title">${prod.name}</h3>
-          <span class="product-price">$${prod.price.toFixed(2)}</span>
+          <span class="product-price">${formatCLP(prod.price)}</span>
         </div>
         <p class="product-category">${prod.category.charAt(0).toUpperCase() + prod.category.slice(1)} • ${prod.tag}</p>
         
@@ -327,7 +332,7 @@ function showProductDetails(id) {
       <div class="detail-content">
         <span class="detail-category">${product.category} • ${product.tag}</span>
         <h2 class="text-headline-lg detail-title">${product.name}</h2>
-        <div class="detail-price">$${product.price.toFixed(2)}</div>
+        <div class="detail-price">${formatCLP(product.price)}</div>
         
         <p class="text-body-md detail-desc">${product.description}</p>
         
@@ -538,7 +543,7 @@ function renderCart() {
         </div>
         
         <div class="cart-item-bottom">
-          <span class="cart-item-price">$${(item.price * item.qty).toFixed(2)}</span>
+          <span class="cart-item-price">${formatCLP(item.price * item.qty)}</span>
           
           <div style="display: flex; align-items: center;">
             <div class="cart-item-qty">
@@ -556,8 +561,8 @@ function renderCart() {
 
   // Calculate prices
   const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
-  if (subtotalLabel) subtotalLabel.innerText = `$${subtotal.toFixed(2)}`;
-  if (totalLabel) totalLabel.innerText = `$${subtotal.toFixed(2)}`;
+  if (subtotalLabel) subtotalLabel.innerText = formatCLP(subtotal);
+  if (totalLabel) totalLabel.innerText = formatCLP(subtotal);
 }
 
 window.updateCartItemQty = function (index, change) {
