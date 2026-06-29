@@ -2,95 +2,100 @@
 const products = [
   {
     id: 1,
-    name: "Performance Pro Hoodie",
-    price: 99.90,
+    name: "Zapatillas Urbanas Hombre New Balance Negra ML 515 BT3",
+    price: 69990,
     category: "hombre",
     tag: "Running",
     badge: "Nuevo",
-    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=600&q=80",
-    description: "Diseñada para atletas que no se detienen ante el clima. Esta sudadera con cierre completo combina un tejido térmico ultraligero con costuras selladas y detalles reflectantes. Su ajuste atlético permite un rango completo de movimiento durante entrenamientos intensos en exterior."
+    image: "assets/zapatilla_new_balance_ML515.jpeg",
+    description: "Calzado de estilo retro-running diseñado para el uso diario casual, combinando una estética clásica con tecnologías modernas de confort."
   },
   {
     id: 2,
-    name: "Leggings Elite Compression",
-    price: 54.90,
-    category: "mujer",
-    tag: "Training",
+    name: "Zapatilla armour curry",
+    price: 129990,
+    category: "hombre",
+    tag: "Running",
     badge: "Destacado",
-    image: "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?auto=format&fit=crop&w=600&q=80",
-    description: "Experimenta el soporte muscular definitivo con nuestros leggings de compresión de alta gama. Confeccionados con tecnología transpirable y paneles de ventilación zonales, mantienen tu temperatura regulada y mejoran el retorno venoso durante tus rutinas de fuerza."
+    image: "assets/zapatilla_under_curry.jpeg",
+    description: "Destacan por su diseño ultraligero y su agarre superior en la cancha. Ofrecen una excelente amortiguación reactiva, soporte dinámico en el mediopié y estabilidad sin igual para cortes rápidos y cambios de dirección explosivos."
   },
   {
     id: 3,
-    name: "Venting Pro T-Shirt",
-    price: 35.00,
-    category: "hombre",
-    tag: "Training",
-    badge: "",
-    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=600&q=80",
-    description: "Una playera técnica diseñada para la máxima disipación de calor. Tejido microperforado de secado ultra rápido y costuras planas anti-rozaduras. Ideal para entrenamientos funcionales de alta intensidad y running diario."
-  },
-  {
-    id: 4,
-    name: "Mancuernas Ajustables 20kg",
-    price: 120.00,
-    category: "equipamiento",
-    tag: "Fuerza",
-    badge: "Popular",
-    image: "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?auto=format&fit=crop&w=600&q=80",
-    description: "Optimiza el espacio en tu gimnasio en casa con nuestro sistema de mancuernas inteligentes. Ajusta el peso desde 2kg hasta 20kg con un simple giro de dial. Placas de acero premium de alta durabilidad con base de guardado ergonómica."
-  },
-  {
-    id: 5,
-    name: "SmartFit Tracker Pro",
-    price: 149.00,
-    category: "accesorios",
-    tag: "Tecnología",
-    badge: "Tech",
-    image: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80",
-    description: "Monitorea tu progreso en tiempo real con precisión milimétrica. Cuenta con sensor de ritmo cardíaco óptico, GPS integrado, monitoreo de oxígeno en sangre (SpO2) y perfiles deportivos avanzados para running, crossfit y natación. Resistencia al agua 5 ATM."
-  },
-  {
-    id: 6,
-    name: "Shorts Ultra-Light",
-    price: 29.90,
+    name: "Zapatillas urbana converse",
+    price: 69990,
     category: "hombre",
     tag: "Running",
     badge: "",
-    image: "https://images.unsplash.com/photo-1519625073050-2815233885ab?auto=format&fit=crop&w=600&q=80",
-    description: "Shorts de running livianos con calzoncillo interior de soporte. Cintura elástica ultra delgada y bolsillo trasero con cierre impermeable para llaves u objetos de valor."
+    image: "assets/zapatilla_urbana_converse.jpg",
+    description: "Son un ícono atemporal que combina comodidad, diseño versátil y herencia deportiva."
+  },
+  {
+    id: 4,
+    name: "Sostén HeatGear Armor High mujer Negro",
+    price: 39990,
+    category: "mujer",
+    tag: "Running",
+    badge: "Popular",
+    image: "assets/sosten_under_armour.jpeg",
+    description: "El sostén deportivo Under Armour HeatGear Armor High en color negro es una prenda de alto rendimiento diseñada para actividades de alto impacto, como running, deportes de cancha y aeróbicos. Ofrece un soporte estratégico, una excelente transpirabilidad y una sensación de compresión que mantiene todo en su lugar."
+  },
+  {
+    id: 5,
+    name: "Under Armour TECH TWIST Camiseta de manga larga ",
+    price: 39990,
+    category: "mujer",
+    tag: "Running",
+    badge: "Tech",
+    image: "assets/camiseta_under.jpeg",
+    description: "Es una prenda de entrenamiento premium. Está confeccionada con el tejido insignia UA Tech™, diseñado para ser ultraligero y de secado rápido, ofreciendo una sensación suave y natural."
+  },
+  {
+    id: 6,
+    name: "Calza  Fitful Two Legging Long everlast",
+    price: 39990,
+    category: "mujer",
+    tag: "Running",
+    badge: "",
+    image: "assets/calza_everlast.jpg",
+    description: "Prenda deportiva de tiro alto y calce ajustado. Diseñada para brindar máxima comodidad y soporte, está confeccionada con tejido elástico (86% Poliéster / 14% Elastano) que garantiza libertad de movimiento y un tacto muy suave, ideal para ir al gimnasio o para un estilo urbano."
   },
   {
     id: 7,
-    name: "Bra Deportivo PowerFlex",
-    price: 39.90,
+    name: "Columbia Polar Mujer Glacial Iv 1/2 Zip Blanco",
+    price: 69990,
     category: "mujer",
     tag: "Training",
     badge: "Nuevo",
-    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&w=600&q=80",
-    description: "Soporte de alto impacto con un diseño cruzado que redistribuye el peso. Copas moldeadas transpirables y banda inferior suave de compresión para evitar movimientos molestos."
+    image: "assets/polar_columbia.jpg",
+    description: "Prenda térmica ultraligera y versátil. Confeccionada en micropolar suave (100% poliéster), cuenta con un diseño de medio cierre frontal y cuello alto que aísla el frío. Su tejido elástico aporta comodidad y libertad de movimiento."
   },
   {
     id: 8,
-    name: "Mat de Yoga Ecológico",
-    price: 45.00,
+    name: "Balon voleybol reebok",
+    price: 29990,
     category: "equipamiento",
-    tag: "Yoga",
-    badge: "Eco",
-    image: "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?auto=format&fit=crop&w=600&q=80",
-    description: "Tapete de yoga fabricado con caucho natural biodegradable de alta densidad. Su superficie texturizada proporciona un agarre antideslizante superior incluso durante sesiones sudorosas."
+    tag: "voleibol",
+    badge: "",
+    image: "assets/balon_volleyball_reebok.jpg",
+    description: "Son balones de tamaño y peso reglamentarios ideales para entrenamiento y partidos recreativos. Están diseñados para ofrecer un rendimiento óptimo tanto en interiores (cancha cerrada) como en exteriores o playa."
   },
   {
     id: 9,
-    name: "Shaker Bottle Pro",
-    price: 15.00,
-    category: "accesorios",
-    tag: "Nutrición",
+    name: "Pelota reebok Basquet classic",
+    price: 46990,
+    category: "equipamiento",
+    tag: "basquetball",
     badge: "",
-    image: "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=600&q=80",
-    description: "Mezclador de suplementos hermético de 700ml con bola batidora de acero inoxidable. Material libre de BPA con compartimento inferior desmontable para polvos y píldoras."
+    image: "assets/pelota_basquet.jpg",
+    description: "Es un balón de alto rendimiento diseñado para competición y entrenamiento. Combina una estética vintage con materiales modernos, ofreciendo un agarre superior y un control óptimo tanto en canchas interiores como exteriores."
   }
 ];
+
+// Formateador de precios en Pesos Chilenos (CLP)
+function formatCLP(amount) {
+  return '$' + Math.round(amount).toLocaleString('es-CL');
+}
 
 // App State
 let cart = JSON.parse(localStorage.getItem('punto_fit_cart')) || [];
@@ -118,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupCatalogFilters();
   setupContactForm();
   updateCartBadge();
-  
+
   // Close loader/smooth display
   document.body.style.opacity = 1;
 });
@@ -191,13 +196,13 @@ function renderFeaturedProducts() {
 
   // Show first 5 products for mobile, or first 4 as featured
   const featured = products.slice(0, 5);
-  
+
   container.innerHTML = featured.map(prod => createProductCardMarkup(prod)).join('');
 }
 
 function createProductCardMarkup(prod) {
   const badgeHTML = prod.badge ? `<span class="product-badge">${prod.badge}</span>` : '';
-  
+
   return `
     <article class="product-card">
       ${badgeHTML}
@@ -207,7 +212,7 @@ function createProductCardMarkup(prod) {
       <div class="product-info">
         <div class="product-header-row">
           <h3 class="product-title">${prod.name}</h3>
-          <span class="product-price">$${prod.price.toFixed(2)}</span>
+          <span class="product-price">${formatCLP(prod.price)}</span>
         </div>
         <p class="product-category">${prod.category.charAt(0).toUpperCase() + prod.category.slice(1)} • ${prod.tag}</p>
         
@@ -236,8 +241,8 @@ function renderCatalogProducts() {
   // Filter
   let filtered = products.filter(prod => {
     const matchesCategory = activeCategory === 'todos' || prod.category === activeCategory;
-    const matchesSearch = prod.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          prod.tag.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = prod.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      prod.tag.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
@@ -327,7 +332,7 @@ function showProductDetails(id) {
       <div class="detail-content">
         <span class="detail-category">${product.category} • ${product.tag}</span>
         <h2 class="text-headline-lg detail-title">${product.name}</h2>
-        <div class="detail-price">$${product.price.toFixed(2)}</div>
+        <div class="detail-price">${formatCLP(product.price)}</div>
         
         <p class="text-body-md detail-desc">${product.description}</p>
         
@@ -396,7 +401,7 @@ function showProductDetails(id) {
     const qty = parseInt(qtyInput.value);
     const sizeActive = container.querySelector('.size-btn.active');
     const size = sizeActive ? sizeActive.innerText : 'N/A';
-    
+
     addToCart(product.id, qty, size);
   });
 
@@ -462,7 +467,7 @@ function addToCart(productId, qty = 1, size = 'N/A') {
   saveCart();
   updateCartBadge();
   showToast(`${qty} x ${product.name} agregado al carrito!`);
-  
+
   // Auto open cart for immediate feedback
   setTimeout(() => {
     window.openCart();
@@ -470,20 +475,20 @@ function addToCart(productId, qty = 1, size = 'N/A') {
 }
 
 // Quick add from card (Home / Catalog lists)
-window.quickAddToCart = function(productId, event) {
+window.quickAddToCart = function (productId, event) {
   if (event) {
     event.preventDefault();
     event.stopPropagation();
   }
   const product = products.find(p => p.id === productId);
   if (!product) return;
-  
+
   // Default sizes for quick addition if clothing
   let defaultSize = 'N/A';
   if (product.category === 'hombre' || product.category === 'mujer') {
     defaultSize = 'M';
   }
-  
+
   addToCart(productId, 1, defaultSize);
 };
 
@@ -504,7 +509,7 @@ function renderCart() {
   const subtotalLabel = document.getElementById('cart-subtotal');
   const totalLabel = document.getElementById('cart-total');
   const cartFooter = document.querySelector('.cart-footer');
-  
+
   if (!container) return;
 
   if (cart.length === 0) {
@@ -538,7 +543,7 @@ function renderCart() {
         </div>
         
         <div class="cart-item-bottom">
-          <span class="cart-item-price">$${(item.price * item.qty).toFixed(2)}</span>
+          <span class="cart-item-price">${formatCLP(item.price * item.qty)}</span>
           
           <div style="display: flex; align-items: center;">
             <div class="cart-item-qty">
@@ -556,25 +561,25 @@ function renderCart() {
 
   // Calculate prices
   const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
-  if (subtotalLabel) subtotalLabel.innerText = `$${subtotal.toFixed(2)}`;
-  if (totalLabel) totalLabel.innerText = `$${subtotal.toFixed(2)}`;
+  if (subtotalLabel) subtotalLabel.innerText = formatCLP(subtotal);
+  if (totalLabel) totalLabel.innerText = formatCLP(subtotal);
 }
 
-window.updateCartItemQty = function(index, change) {
+window.updateCartItemQty = function (index, change) {
   if (cart[index]) {
     cart[index].qty += change;
-    
+
     if (cart[index].qty <= 0) {
       cart.splice(index, 1);
     }
-    
+
     saveCart();
     updateCartBadge();
     renderCart();
   }
 };
 
-window.removeCartItem = function(index) {
+window.removeCartItem = function (index) {
   if (cart[index]) {
     cart.splice(index, 1);
     saveCart();
@@ -583,7 +588,7 @@ window.removeCartItem = function(index) {
   }
 };
 
-window.checkout = function() {
+window.checkout = function () {
   // Internal reset used after WhatsApp redirect
   cart = [];
   saveCart();
@@ -594,7 +599,7 @@ window.checkout = function() {
   }, 1500);
 };
 
-window.checkoutWhatsApp = function() {
+window.checkoutWhatsApp = function () {
   if (cart.length === 0) {
     showToast('Tu carrito está vacío', true);
     return;
@@ -631,7 +636,7 @@ function setupContactForm() {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    
+
     // Simple verification
     const name = form.querySelector('#contact-name').value.trim();
     const email = form.querySelector('#contact-email').value.trim();
@@ -661,7 +666,7 @@ function showToast(message, isError = false) {
   const toast = document.createElement('div');
   toast.className = 'toast';
   if (isError) toast.style.borderLeftColor = 'var(--error)';
-  
+
   toast.innerHTML = `
     <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" ${isError ? 'style="color: var(--error)"' : ''}>
       ${isError ? `
@@ -676,7 +681,7 @@ function showToast(message, isError = false) {
   `;
 
   toastContainer.appendChild(toast);
-  
+
   // Trigger entry animation
   setTimeout(() => {
     toast.classList.add('show');
@@ -692,26 +697,26 @@ function showToast(message, isError = false) {
 }
 
 // 8. NEWSLETTER SUBSCRIBE
-window.subscribeNewsletter = function(e) {
+window.subscribeNewsletter = function (e) {
   if (e) e.preventDefault();
   const emailInput = document.getElementById('newsletter-email');
   if (!emailInput) return;
-  
+
   const email = emailInput.value.trim();
   if (!email) {
     showToast("Por favor ingresa un email válido.", true);
     return;
   }
-  
+
   showToast("¡Te has suscrito con el 20% OFF!");
   emailInput.value = '';
 };
 
 // 9. MOBILE SLIDER MANUAL SCROLL ACTION
-window.scrollCategories = function(direction) {
+window.scrollCategories = function (direction) {
   const slider = document.getElementById('categories-slider-container');
   if (!slider) return;
-  
+
   const scrollAmount = 300;
   if (direction === 'left') {
     slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
